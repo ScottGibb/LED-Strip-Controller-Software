@@ -1,5 +1,9 @@
 # Python Command Line Interface
 
+<center>
+  <img src ="docs/Languages_And_Tools.png">
+</center>
+
 ## Summary
 
 The Python command Line interface is a very simple python interface which uses the pyserial package to create serial packets over USB. Due to the nature of the device in that the system works as a generic USB, It was decided that Python and Docker would be used to launch the software on systems. As this allows the command line interface to be used on any operating system wether it has a graphical user interface like windows or a server based system like Linux.
@@ -7,7 +11,9 @@ The Python command Line interface is a very simple python interface which uses t
 ## Docker
 As for Docker, the Dockerfile is held in this repository and can be created using the bash script run.sh. This does all the building of the image and the running of the container. At the moment the system runs in privileged mode which is not-ideal, however for the purpose of this software which is for debugging the hardware and ensuring that its running correctly, this should not matter much.
 
-![System Design Diagram](../../docs/Diagrams-Python%20Docker%20System%20Design.png)
+<center>
+<img src = docs/System-Diagram.png>
+</center>
 
 ## Installation Instructions
 As for the installation of this program, the steps are listed below:

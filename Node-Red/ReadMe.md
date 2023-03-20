@@ -1,5 +1,10 @@
 # Node-Red Software
 
+<center>
+<img src = "docs/Languages_And_Tools.png">
+</center>
+
+## Summary
 Within this directory of the repository there are two folders:
  - Node-Red Flow
  - Node-Red Package
@@ -11,4 +16,6 @@ Within this directory of the repository there are two folders:
  - [node-red-node-serialport (0.15.0)](https://flows.nodered.org/node/node-red-node-serialport)
 
 
- The Node-Red package is a work in progress package to encapsulate all of this code and put everything in one node for the future developer. Currently this is still in development //todo: Finish this
+ The Node-Red package is a work in progress package to encapsulate all of this code and put everything in one node for the future developer. Currently this is still in development 
+ 
+ //todo: Finish this
