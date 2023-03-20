@@ -1,20 +1,28 @@
-# Node-Red LED Strip Controller Software
+# LED Strip Controller Software
 
-# Summary
+<center>
+<img src="docs/Languages_And_Tools.png">
+</center>
 
-As discussed throughout this project the LED Strip Controller is a microcontroller based device running its own firmware which can be communicated with using USB Serial. For anyone to interact with the hardware they must either abide by the serial control interface or use one of the following software approaches.
+## Summary
 
-# Software Interactions
-A variety of different software applications were created/used to interact with the hardware.
+As discussed earlier, the project revolves around colour control of different LED strips. At this level of the project, this repository is concerned with the high-level software running on systems outside of the device. This is why high-level languages such as Python and C# are used. The idea of this software is to interface with the hardware system through either USB or TCP/IP and allow the user to control the device. The software is split into four different applications, each with its own purpose. The first is a Python command line interface that allows the user to control the device through a series of questions. The second is a Node-Red application that acts as a gateway between the hardware and Alexa. The third application is a C# Graphical User Interface which allows the user to control the device through a GUI, the idea of this application is to be cross platform control. The last application to be built is a telegram bot which allows the user to control the device through a popular messaging application Telegram.
 
-## Python Command Interface
-At the simplest a Python Control Interface was developed which would connect to the hardware and ask the user a series of questions as to what they wanted each channel to do.
+The overall system diagram is shown below, depending on the hardware platform the applications may have to go through the Raspberry Pi first as the hardware platform might not have IP support. This is the case with the STM32 devices as they don't have built-in WiFi or Ethernet support.
 
-## Node-Red 
-The next application was Node-Red which was responsible for interacting with Alexa and acting as a gateway between the Alexa and the hardware control system.
+<center>
+<img src ="docs/High_Level_System_Diagram.png">
+</center>
 
-## C# Application
-As for the final application, a C# Graphical user interface was chosen, to allow for easier control of the Lights Controller and allow the user to control the device and effectively leave it after "uploading" the selected colours and fade patterns.
+# Repository Structure
 
-# Improvements
+The repository is split into four different folders: 
 
+- Python Command Line Interface: Allows the user to control the device through a series of questions, these questions ask what interface the user is using, followed by a series of questions to enable the specific lighting they want.
+
+
+- Node-Red Application: Acts as a gateway between the hardware and Alexa, this application is built using Node-Red and is designed to run on a Raspberry Pi. This application talks to the hardware using the predefined protocol and uses the Alexa Node-Red libraries to convert speech into actions for the hardware to perform.
+
+- C# Multi Platform App: Acts as a Graphical User Interface to control the hardware, the idea with this app, is that its a multi-platform control GUI which can run on smartphones and desktops.
+
+- C++ Telegram Bot: Acts as a Telegram Bot to control the hardware, this was chosen because Telegram is a popular messaging application and it would be a good way to control the hardware, along with allows CMake to be used with the project.

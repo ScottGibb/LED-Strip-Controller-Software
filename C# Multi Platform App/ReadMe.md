@@ -3,7 +3,10 @@
 
 ## User Interface Diagrams
 
-![UI Design](../../docs/C%23%20Graphical%20User%20Interface%20Mockups.png)
+<center>
+    <img src = "docs/Mockups.png">
+</center>
+
 
 ## Class Diagram
 
