@@ -26,3 +26,11 @@ The repository is split into four different folders:
 - C# Multi Platform App: Acts as a Graphical User Interface to control the hardware, the idea with this app, is that its a multi-platform control GUI which can run on smartphones and desktops.
 
 - C++ Telegram Bot: Acts as a Telegram Bot to control the hardware, this was chosen because Telegram is a popular messaging application and it would be a good way to control the hardware, along with allows CMake to be used with the project.
+
+
+## LED Strip Controller Repository Links
+
+- [Manifest](https://github.com/ScottGibb/LED-Strip-Controller-Manifest) This repository contains the manifest file for the LED Strip Controller project. Which allows cloning of all the repositories in one go.
+- [Hardware](https://github.com/ScottGibb/LED-Strip-Controller-Hardware) This repository contains the hardware design files for the LED Strip Controller project.
+- [Firmware](https://github.com/ScottGibb/LED-Strip-Controller-Firmware) This repository contains the firmware for the LED Strip Controller project.
+- [Software](https://github.com/ScottGibb/LED-Strip-Controller-Software) This repository contains the software for the LED Strip Controller project.
