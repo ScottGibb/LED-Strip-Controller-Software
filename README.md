@@ -28,7 +28,6 @@ The repository is split into four different submodules, each with its own purpos
 
 - [Telegram Bot](./Telegram%20Bot/): Acts as a Telegram Bot to control the hardware, this was chosen because Telegram is a popular messaging application and it would be a good way to control the hardware, along with allows CMake to be used with the project.
 
-
 ## LED Strip Controller Repository Links
 
 - [Manifest](https://github.com/ScottGibb/LED-Strip-Controller-Manifest) This repository contains the manifest file for the LED Strip Controller project. Which allows cloning of all the repositories in one go.
