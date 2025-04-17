@@ -19,9 +19,9 @@ This application is revolved around NodeRed and is the flow used to integrate al
 - Once the flow is imported, you will need to install the required plugins. These are listed below.
 - Once all this is installed, setup the alexa plugin and configure the hardware wether that be a serial connection or an IP based connection.
 
-
 ## Node-Red Plugins
 
 For using this flow the following plugins are required:
- - [node-red-contrib-alexa-home-skill (0.1.19)](https://flows.nodered.org/node/node-red-contrib-alexa-home-skill)
- - [node-red-node-serialport (0.15.0)](https://flows.nodered.org/node/node-red-node-serialport)
+
+- [node-red-contrib-alexa-home-skill (0.1.19)](https://flows.nodered.org/node/node-red-contrib-alexa-home-skill)
+- [node-red-node-serialport (0.15.0)](https://flows.nodered.org/node/node-red-node-serialport)
