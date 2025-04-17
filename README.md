@@ -1,5 +1,7 @@
 # LED Strip Controller Software
 
+[![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Software/actions/workflows/Mega%20Linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Software/actions/workflows/Mega%20Linter.yaml)
+
 <center>
 <img src="docs/Languages_And_Tools.png">
 </center>
@@ -16,17 +18,15 @@ The overall system diagram is shown below, depending on the hardware platform th
 
 # Repository Structure
 
-The repository is split into four different folders: 
+The repository is split into four different submodules, each with its own purpose. The submodules are as follows:
 
-- Python Command Line Interface: Allows the user to control the device through a series of questions, these questions ask what interface the user is using, followed by a series of questions to enable the specific lighting they want.
-
+- [Python Command Line Interface](https://github.com/ScottGibb/LED-Strip-Controller-TUI): Allows the user to control the device through a series of questions, these questions ask what interface the user is using, followed by a series of questions to enable the specific lighting they want.
 
 - Node-Red Application: Acts as a gateway between the hardware and Alexa, this application is built using Node-Red and is designed to run on a Raspberry Pi. This application talks to the hardware using the predefined protocol and uses the Alexa Node-Red libraries to convert speech into actions for the hardware to perform.
 
-- C# Multi Platform App: Acts as a Graphical User Interface to control the hardware, the idea with this app, is that its a multi-platform control GUI which can run on smartphones and desktops.
+- [Multi Platform App](./Multi%20Platform%20App/): Acts as a Graphical User Interface to control the hardware, the idea with this app, is that its a multi-platform control GUI which can run on smartphones and desktops.
 
-- C++ Telegram Bot: Acts as a Telegram Bot to control the hardware, this was chosen because Telegram is a popular messaging application and it would be a good way to control the hardware, along with allows CMake to be used with the project.
-
+- [Telegram Bot](./Telegram%20Bot/): Acts as a Telegram Bot to control the hardware, this was chosen because Telegram is a popular messaging application and it would be a good way to control the hardware, along with allows CMake to be used with the project.
 
 ## LED Strip Controller Repository Links
 
