@@ -1,0 +1,3 @@
+[submodule "Tui"]
+	path = Tui
+	url = git@github.com:ScottGibb/LED-Strip-Controller-TUI.git
