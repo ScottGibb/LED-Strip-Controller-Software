@@ -2,9 +2,7 @@
 
 [![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Software/actions/workflows/Mega%20Linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Software/actions/workflows/Mega%20Linter.yaml)
 
-<center>
-<img src="docs/Languages_And_Tools.png">
-</center>
+![Languages and Tools](docs/Languages_And_Tools.png)
 
 ## Summary
 
@@ -12,11 +10,9 @@ As discussed earlier, the project revolves around colour control of different LE
 
 The overall system diagram is shown below, depending on the hardware platform the applications may have to go through the Raspberry Pi first as the hardware platform might not have IP support. This is the case with the STM32 devices as they don't have built-in WiFi or Ethernet support.
 
-<center>
-<img src ="docs/High_Level_System_Diagram.png">
-</center>
+![High Level Diagram](docs/High_Level_System_Diagram.png)
 
-# Repository Structure
+## Repository Structure
 
 The repository is split into four different submodules, each with its own purpose. The submodules are as follows:
 

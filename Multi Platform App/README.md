@@ -2,9 +2,7 @@
 
 ## User Interface Diagrams
 
-<center>
-    <img src = "docs/Mockups.png">
-</center>
+![Mockups](docs/Mockups.png)
 
 ## Class Diagram
 
