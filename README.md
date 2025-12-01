@@ -1,6 +1,6 @@
 # LED Strip Controller Software
 
-[![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Software/actions/workflows/Mega%20Linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Software/actions/workflows/Mega%20Linter.yaml)
+[![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Software/actions/workflows/mega-linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Software/actions/workflows/mega-linter.yaml)
 
 ![Languages and Tools](docs/Languages_And_Tools.png)
 
