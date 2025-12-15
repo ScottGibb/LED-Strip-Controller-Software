@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.0](https://github.com/ScottGibb/LED-Strip-Controller-Software/compare/v1.0.0...v1.1.0) (2025-12-15)
+
+
+### Features
+
+* **ci:** Update Dependabot auto-merge workflow ([39df318](https://github.com/ScottGibb/LED-Strip-Controller-Software/commit/39df318501bd33f161315435acf51a4c3701264c))
+
+
+### Bug Fixes
+
+* **ci:** Refactor release workflow to use release-please ([ff4afc6](https://github.com/ScottGibb/LED-Strip-Controller-Software/commit/ff4afc6236f61dfabde358728d872b44bb1c4d95))
+* **ci:** Update Dependabot workflow for auto-merging ([23668ad](https://github.com/ScottGibb/LED-Strip-Controller-Software/commit/23668ad80cd010ef51d88bbbb8ca779d819e7eff))
+
 ## 1.0.0 (2025-12-01)
 
 
