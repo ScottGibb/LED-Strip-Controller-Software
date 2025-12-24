@@ -1,3 +1,6 @@
 [submodule "Tui"]
 	path = Tui
 	url = git@github.com:ScottGibb/LED-Strip-Controller-TUI.git
+[submodule "Multi-Platofrm-App"]
+	path = Multi-Platofrm-App
+	url = git@github.com:ScottGibb/LED-Strip-Controller-Tauri-App.git
