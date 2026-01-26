@@ -2,7 +2,7 @@
 
 [![MegaLinter](https://github.com/ScottGibb/LED-Strip-Controller-Software/actions/workflows/mega-linter.yaml/badge.svg)](https://github.com/ScottGibb/LED-Strip-Controller-Software/actions/workflows/mega-linter.yaml)
 
-![Languages and Tools](docs/Languages_And_Tools.png)
+![Languages and Tools](docs/languages_and_tools.drawio.svg)
 
 ## Summary
 
@@ -10,7 +10,7 @@ As discussed earlier, the project revolves around colour control of different LE
 
 The overall system diagram is shown below, depending on the hardware platform the applications may have to go through the Raspberry Pi first as the hardware platform might not have IP support. This is the case with the STM32 devices as they don't have built-in WiFi or Ethernet support.
 
-![High Level Diagram](docs/High_Level_System_Diagram.png)
+![High Level Diagram](docs/high_level_system_diagram.drawio.svg)
 
 ## Repository Structure
 
