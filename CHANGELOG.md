@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/ScottGibb/LED-Strip-Controller-Software/compare/v1.1.0...v1.2.0) (2026-02-07)
+
+
+### Features
+
+* add submodule ([84ef06a](https://github.com/ScottGibb/LED-Strip-Controller-Software/commit/84ef06a645679053be87eb716654677f5bced930))
+
+
+### Bug Fixes
+
+* **docs:** architecture fix ([c5ddef5](https://github.com/ScottGibb/LED-Strip-Controller-Software/commit/c5ddef59cdf35b853d9792a27a54d41115afc0ec))
+* **submodule:** naming ([a76513a](https://github.com/ScottGibb/LED-Strip-Controller-Software/commit/a76513a7c9fb5ba0bc97173374e9c8f9051ff60a))
+
 ## [1.1.0](https://github.com/ScottGibb/LED-Strip-Controller-Software/compare/v1.0.0...v1.1.0) (2025-12-15)
 
 
