@@ -1,6 +1,6 @@
 # Node-Red Software
 
-![Languages and Tools](docs/Languages_And_Tools.png)
+![Languages and Tools](docs/languages_and_tools.drawio.svg)
 
 ## Summary
 
