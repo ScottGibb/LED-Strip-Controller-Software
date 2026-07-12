@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/ScottGibb/LED-Strip-Controller-Software/compare/v1.2.0...v1.3.0) (2026-07-12)
+
+
+### Features
+
+* add Home Assistant Functionality ([45a7f60](https://github.com/ScottGibb/LED-Strip-Controller-Software/commit/45a7f606187f0dc8b957107714903f2d3327fae9))
+
 ## [1.2.0](https://github.com/ScottGibb/LED-Strip-Controller-Software/compare/v1.1.0...v1.2.0) (2026-02-03)
 
 
